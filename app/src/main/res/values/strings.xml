@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Veda Companion</string>
+    <string name="company_name">Veda Technology</string>
+    <string name="internship_title">Internship Companion App</string>
+    <string name="day_badge">Day 1 of 4 Project</string>
+    <string name="tagline">Empowering Next-Gen Innovators</string>
+    
+    <!-- Home Navigation Titles -->
+    <string name="nav_domains_title">Tech Domains</string>
+    <string name="nav_domains_desc">Explore cutting-edge internship tracks &amp; roadmaps</string>
+    <string name="nav_projects_title">Projects</string>
+    <string name="nav_projects_desc">Browse real-world internship projects &amp; tasks</string>
+    <string name="nav_faq_title">Intern FAQs</string>
+    <string name="nav_faq_desc">Guidelines, evaluations, mentor support &amp; perks</string>
+    <string name="nav_favorites_title">My Favorites</string>
+    <string name="nav_favorites_desc">Access your bookmarked resources &amp; projects</string>
+    
+    <!-- Screen Titles -->
+    <string name="title_domains">Internship Domains</string>
+    <string name="title_projects">Internship Projects</string>
+    <string name="title_project_detail">Project Details</string>
+    <string name="title_faq">Frequently Asked Questions</string>
+    <string name="title_favorites">Bookmarked Favorites</string>
+    
+    <!-- Actions -->
+    <string name="action_bookmark">Bookmark Project</string>
+    <string name="action_bookmarked">Bookmarked</string>
+    <string name="action_remove_bookmark">Remove Bookmark</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_view_project">View Project Details</string>
+    <string name="empty_favorites_msg">No favorites saved yet.\nBookmark projects from the details screen!</string>
+</resources>

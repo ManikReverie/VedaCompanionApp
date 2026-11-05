@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Veda Technology Brand Colors -->
+    <color name="veda_navy">#0F172A</color>
+    <color name="veda_navy_dark">#0A0F1D</color>
+    <color name="veda_navy_light">#1E293B</color>
+    <color name="veda_navy_surface">#334155</color>
+    
+    <color name="veda_orange">#FF6B00</color>
+    <color name="veda_orange_light">#FF8533</color>
+    <color name="veda_orange_container">#FFF3EB</color>
+    
+    <!-- UI Neutral Palette -->
+    <color name="bg_light">#F8FAFC</color>
+    <color name="card_bg">#FFFFFF</color>
+    <color name="surface_border">#E2E8F0</color>
+    
+    <color name="text_primary">#0F172A</color>
+    <color name="text_secondary">#64748B</color>
+    <color name="text_muted">#94A3B8</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+    <!-- Tag & Status Colors -->
+    <color name="tag_android_bg">#E6F4EA</color>
+    <color name="tag_android_text">#137333</color>
+    <color name="tag_web_bg">#E8F0FE</color>
+    <color name="tag_web_text">#1A73E8</color>
+    <color name="tag_ai_bg">#F3E8FD</color>
+    <color name="tag_ai_text">#8430CE</color>
+    <color name="tag_cloud_bg">#E0F2FE</color>
+    <color name="tag_cloud_text">#0369A1</color>
+    
+    <color name="favorite_red">#EF4444</color>
+    <color name="favorite_red_bg">#FEE2E2</color>
+    <color name="delete_red">#DC2626</color>
+</resources>

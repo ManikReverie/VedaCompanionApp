@@ -1,0 +1,132 @@
+{
+  "domains": [
+    {
+      "id": "dom_android",
+      "name": "Android Development",
+      "description": "Native mobile app development using Kotlin, Room Database, Jetpack components, and modern MVVM architecture.",
+      "techStack": "Kotlin, Room, Coroutines, MVVM, XML/Material3",
+      "projectCount": 4
+    },
+    {
+      "id": "dom_web",
+      "name": "Full-Stack Web Development",
+      "description": "Modern full-stack web applications covering React.js, Node.js, Express, REST APIs, and database management.",
+      "techStack": "React.js, Node.js, Express, PostgreSQL, Tailwind CSS",
+      "projectCount": 2
+    },
+    {
+      "id": "dom_ai",
+      "name": "AI & Machine Learning",
+      "description": "Data preprocessing, deep learning models, natural language processing, and generative AI applications.",
+      "techStack": "Python, PyTorch, Scikit-learn, LangChain, HuggingFace",
+      "projectCount": 2
+    },
+    {
+      "id": "dom_cloud",
+      "name": "Cloud & DevOps",
+      "description": "Containerization with Docker, Kubernetes orchestration, CI/CD automation, and cloud deployments on AWS.",
+      "techStack": "Docker, Kubernetes, AWS, GitHub Actions, Terraform",
+      "projectCount": 1
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj_day_1",
+      "title": "Day 1: Veda Companion App",
+      "domain": "Android Development",
+      "duration": "Day 1 Milestone",
+      "difficulty": "Intermediate",
+      "description": "Build an offline-first companion application for Veda Technology interns featuring multi-screen navigation, Room Database for local bookmarking, and JSON-based curriculum parsing.",
+      "guidelines": "1. Implement clean MVVM architecture with Room Database.\n2. Design intuitive UI following Veda Technology branding (Navy #0F172A, Orange #FF6B00).\n3. Use RecyclerView with custom ViewHolders for displaying domains, projects, and FAQs.\n4. Provide bookmark toggle and deletion functionality with LiveData.\n5. Write clean documentation in README.md.",
+      "prerequisites": "Kotlin basics, Android Studio, Activities & Intents, Room DB"
+    },
+    {
+      "id": "proj_day_2",
+      "title": "Day 2: Advanced Features & API Integration",
+      "domain": "Android Development",
+      "duration": "Day 2 Milestone",
+      "difficulty": "Intermediate",
+      "description": "Integrate RESTful network APIs using Retrofit and OkHttp to fetch dynamic intern announcements, mentor schedules, and live server updates.",
+      "guidelines": "1. Set up Retrofit client with Moshi/Gson converter.\n2. Implement network connectivity checker and offline fallback caching in Room.\n3. Add SwipeRefreshLayout to refresh announcements.\n4. Handle loading states and error banners gracefully.",
+      "prerequisites": "Retrofit, Coroutines, Flow, StateFlow, LiveData"
+    },
+    {
+      "id": "proj_day_3",
+      "title": "Day 3: Testing & UI Refinement",
+      "domain": "Android Development",
+      "duration": "Day 3 Milestone",
+      "difficulty": "Intermediate",
+      "description": "Refine the user experience with animations, Material 3 transitions, comprehensive Room DAO unit tests, and Espresso UI test coverage.",
+      "guidelines": "1. Write JUnit 4 and Mockito unit tests for DataRepository and Room DAO.\n2. Implement Espresso UI test covering the bookmarking user flow.\n3. Add shared element transitions and subtle elevation touches.\n4. Ensure edge-to-edge system insets and dark mode consistency.",
+      "prerequisites": "JUnit, Mockito, Espresso, Material Design Guidelines"
+    },
+    {
+      "id": "proj_day_4",
+      "title": "Day 4: Final Capstone Deployment & Showcase",
+      "domain": "Android Development",
+      "duration": "Day 4 Milestone",
+      "difficulty": "Advanced",
+      "description": "Package the complete companion application into a signed release APK/AAB with ProGuard/R8 obfuscation, crash reporting, and preparation for demo presentation.",
+      "guidelines": "1. Configure release signing key and Proguard rules.\n2. Verify zero crash reports and memory leaks.\n3. Prepare a 2-minute demo video walkthrough.\n4. Finalize README with architectural diagrams and release APK download link.",
+      "prerequisites": "Gradle release signing, ProGuard, GitHub Releases"
+    },
+    {
+      "id": "proj_web_1",
+      "title": "Enterprise Intern Portal & Dashboard",
+      "domain": "Full-Stack Web Development",
+      "duration": "Capstone Project",
+      "difficulty": "Advanced",
+      "description": "A scalable web dashboard for interns and mentors to submit tasks, review peer submissions, schedule 1-on-1 mentorship sessions, and track milestones.",
+      "guidelines": "1. Build responsive frontend using React 18 and Tailwind CSS.\n2. Secure REST API with JWT authentication and Role-Based Access Control.\n3. Real-time mentor notifications using WebSockets.",
+      "prerequisites": "React.js, Node.js, Express, PostgreSQL, JWT"
+    },
+    {
+      "id": "proj_ai_1",
+      "title": "Resume Analyzer & Skill Matcher AI",
+      "domain": "AI & Machine Learning",
+      "duration": "Capstone Project",
+      "difficulty": "Advanced",
+      "description": "An NLP-powered recruitment tool that parses candidate resumes, extracts core technical skills, and matches them against internship project requirements using semantic embeddings.",
+      "guidelines": "1. PDF resume text extraction and normalization.\n2. Sentence-BERT embeddings calculation for job descriptions.\n3. Cosine similarity score and radar chart visualization of skill gaps.",
+      "prerequisites": "Python, SpaCy, Sentence-Transformers, Streamlit/FastAPI"
+    }
+  ],
+  "faqs": [
+    {
+      "id": "faq_1",
+      "question": "What is the schedule and structure of the Veda Technology Internship?",
+      "answer": "The internship spans 4 intensive project days: Day 1 Foundation & Architecture, Day 2 Advanced Features & API Integration, Day 3 Testing & UI Refinement, and Day 4 Final Project Deployment & Showcase.",
+      "category": "Program Structure"
+    },
+    {
+      "id": "faq_2",
+      "question": "How do I submit my completed project tasks?",
+      "answer": "All project submissions must be committed to your assigned GitHub repository under the respective branch (e.g., 'day-1-companion-app'). Submit the GitHub URL along with a 2-minute video walkthrough through the Intern Portal.",
+      "category": "Submissions"
+    },
+    {
+      "id": "faq_3",
+      "question": "Can I bookmark projects to work on later?",
+      "answer": "Yes! Use the Bookmark button inside any project details screen. Your bookmarked projects are stored locally using Room Database and can be viewed anytime under 'My Favorites', even offline.",
+      "category": "App Features"
+    },
+    {
+      "id": "faq_4",
+      "question": "How do I connect with my assigned mentor?",
+      "answer": "Mentors host daily standups at 10:30 AM IST on Discord/Slack. You can also book dedicated 15-minute 1-on-1 code review slots via the intern dashboard calendar.",
+      "category": "Mentorship"
+    },
+    {
+      "id": "faq_5",
+      "question": "What are the criteria for receiving the Internship Completion Certificate?",
+      "answer": "Interns must complete all 4 core milestone deliverables, maintain at least 80% attendance in mentor sessions, submit comprehensive documentation (README), and present their capstone project. High performers receive Letters of Recommendation (LOR).",
+      "category": "Certification"
+    },
+    {
+      "id": "faq_6",
+      "question": "What if I get stuck or encounter Gradle/build errors?",
+      "answer": "First check the troubleshooting channel in the Veda Tech Discord. Review your dependencies, ensure compatible JDK versions (Java 17/11), and reach out in the #help-desk channel with your stack trace.",
+      "category": "Technical Support"
+    }
+  ]
+}
